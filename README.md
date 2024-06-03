@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 ## Sobre o desafio
+![preview](img/preview1.png)
 
 Este desafio envolve a criação de uma interface web simples, 
 desenvolvida como parte da trilha Explorer da Rocketseat. 
