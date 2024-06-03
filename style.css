@@ -1,0 +1,215 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0%;
+}
+
+body, input, button, select, textarea {
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+  background-color: #E5E5E5;
+
+}
+
+body::before {
+ content: '';
+ width: 100%;
+ height: 426px;
+
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ z-index: -1;
+ background-color: #535971;
+
+}
+
+header {
+width: 417px;
+
+margin-top: 144px;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: auto;
+
+  color: #FFFFFF;
+
+  margin-bottom: 18px;
+
+ }
+
+ header P {
+  font-size: 20px;
+  font-size: auto;
+  color: #FFFFFF;
+ }
+
+ form {
+  margin-top: 58px;
+  background-color: #FFFFFF;
+  border-radius: 8px 8px 0 0;
+  min-height: 300px;
+
+  padding: 64px;
+ }
+
+ fieldset {
+  border: none;
+ }
+
+ fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  
+  color: #535971;
+
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+  margin: 30px 0;
+ }
+
+ .input-wrapper {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+
+  margin: 8px 0 8px;
+}
+
+ .col-2 {
+  display: flex;
+  gap: 22px;
+
+  color: #535971;
+  }
+
+ #name, #surname {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+ }
+
+ .input-wrapper label span {
+  margin-left: 12px;
+
+  font-size: 12px;
+  line-height: 20px;
+  color: #8f8d95;
+ }
+
+ .input-wrapper label span:hover {
+
+  color: #6c6a71;
+ }
+
+.input-wrapper input {
+  background-color: #E6E6F0;
+
+  width: 622px;
+  height: 56px;
+
+  border-radius: 8px;
+  border: 1px solid #C1BCCC;
+  
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6a71;
+
+}
+
+.mentoria {
+  font-size: 20px;
+  
+  color: #535971;
+
+  width: 100%;
+  border: none;
+  padding-bottom: 8px;
+  margin: 30px 0 0;
+}
+
+.col-3 label {
+  margin: 8 px 0px 8px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 32px;
+}
+
+#DataPrimeiraMentoria,#DataSegundaMentoria{
+  width: 300px;
+  height: 56px;
+}
+
+#DasPrimeiraMentoria, #AtePrimeiraMentoria, #AteSegundaMentoria,#DasSegundaMentoria  {
+  width: 140px;
+  height: 56px;
+}
+
+footer{
+  background: #535971;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 52px 71px;
+  
+  margin-bottom: 366px;
+  border-radius: 0 0 20px 20px;
+  
+}
+
+footer .button {
+  font-family: "Staatliches", sans-serif;
+  font-size:20px;
+  font-weight: 26px;
+  color: #FFFFFF;
+
+  border: none;
+
+  height: 55px;
+  width: 608px;
+
+  border-radius:20px;
+
+  background-color: #FF5374;
+
+}
+
+footer .button:hover {
+  background-color: #f82751;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
